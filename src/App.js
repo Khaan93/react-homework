@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import menuList from './components/menuList';
+import MenuList from "./components/MenuList";
 
 let menu = [{ name: "Щи" }, { name: "Шашлык" }, { name: "Чикенбургер" }];
 
@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <header></header>
       <div className='container'>
-        <div className='grid-cols-1'>
-          <menuList items={menu} />
+        <div className='columns-1 columns-sn-3'>
+          <MenuList items={menu} />
         </div>
       </div>
     </div>
